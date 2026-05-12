@@ -1,32 +1,29 @@
 {
-	"schemaVersion": 1,
-	"id": "map-coordinates",
-	"version": "${version}",
-	"name": "Treasure Map Coordinates",
-	"description": "This mod gives you coordinates of a structure if you are holding a treasure map with it - §9/mapcoords",
-	"authors": [
-		"TrRuki"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/TrRuki/map-coordinates"
-	},
-	"license": "GPL-3.0",
-	"icon": "assets/map-coordinates/icon.png",
-	"environment": "client",
-	"entrypoints": {
-		"client": [
-			"me.trruki.MapCoordinatesClient"
-		]
-	},
-	"mixins": [],
-	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": ">=1.21.5 <=1.21.11",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "map-coordinates",
+  "version": "${version}",
+  "name": "Treasure Map Coordinates",
+  "description": "This mod gives you coordinates of a structure if you are holding a treasure map with it - §9/mapcoords",
+  "authors": [
+    "TrRuki"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/TrRuki/map-coordinates"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/map-coordinates/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.trruki.MapCoordinatesClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": ">=26.1 <26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
 }
