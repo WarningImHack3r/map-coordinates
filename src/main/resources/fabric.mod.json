@@ -9,20 +9,20 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/TrRuki/map-coordinates"
+		"sources": "https://github.com/TrRuki/treasure-map-coordinates"
 	},
 	"license": "GPL-3.0",
 	"icon": "assets/map-coordinates/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"client": [
-			"me.trruki.MapCoordinatesClient"
+			"me.trruki.mapCoordinates.client.MapCoordinatesClient"
 		]
 	},
 	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": ">=1.21.5 <=1.21.11",
+		"minecraft": ">=26.1 <=26.2",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
