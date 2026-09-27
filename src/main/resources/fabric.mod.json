@@ -9,24 +9,21 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/TrRuki/treasure-map-coordinates"
+		"sources": "https://github.com/TrRuki/map-coordinates"
 	},
 	"license": "GPL-3.0",
 	"icon": "assets/map-coordinates/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"client": [
-			"me.trruki.mapCoordinates.client.MapCoordinatesClient"
+			"me.trruki.MapCoordinatesClient"
 		]
 	},
 	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": ">=26.1 <=26.2",
-		"java": ">=21",
+		"minecraft": ">=26.3 <26.4",
+		"java": ">=25",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
